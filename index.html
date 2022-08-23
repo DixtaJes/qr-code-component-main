@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+  height: 100vh;
+}
+.total {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 200px;  
+  margin: 0 auto;
+  padding: 10px;
+} 
+  .image {
+    margin: 0 auto;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .full {
+    background-color: hsl(212, 45%, 89%);
+    padding: 70px;
+    min-height: 100vh;
+  }
+  @font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit)
+  }
+  .qr {
+font-size: 12px;
+text-align: center;
+font-weight: 400;
+color: hsl(220, 15%, 55%)
+  }
+  .front {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700
+  }
+  img {
+      width: 80%;
+      height: 80%;
+      margin: 0 auto;
+    }
+  @media (min-width: 375px)and(max-width: 1440px) {}
+
+
+  </style>
+</head>
+<body>
+  <div class="full">
+
+<div class="total">
+<img src="./images/image-qr-code.png"  class="image">
+<p class="front">
+  Improve your front-end skills by building projects
+</p>
+<p class="qr">
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+</p>
+</div>
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Benedicta</a>.
+  </div>
+-->
+</div>
+</body>
+</html>
